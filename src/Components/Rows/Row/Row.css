@@ -1,0 +1,36 @@
+.Row {
+	margin: 40px 0 0 20px;
+	text-transform: uppercase;
+}
+
+.MoviePosters {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 20px;
+}
+
+.MoviePosters::-webkit-scrollbar {
+	display: none;
+}
+
+.MoviePoster {
+	object-fit: contain;
+	width: 100%;
+	margin-right: 20px;
+	max-height: 150px;
+	transition: transform 0.4s;
+	box-shadow: 10px 10px 20px rgba(37, 37, 37, .61), -10px -10px 20px rgba(37, 37, 37, .61);
+}
+
+.MoviePoster:hover {
+	transform: scale(1.08);
+}
+
+.MoviePosterLarge {
+	max-height: 300px;
+}
+
+.MoviePosterLarge:hover {
+	transform: scale(1.09);
+}

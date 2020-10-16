@@ -1,0 +1,41 @@
+.Banner {
+	color: white;
+	height: 448px;
+	object-fit: contain;
+	margin-bottom: 30px;
+}
+
+.BannerContents {
+	margin-left: 30px;
+	padding-top: 110px;
+	height: 330px;
+}
+
+.BannerTitle {
+	font-size: 3rem;
+	font-weight: 800;
+	padding-bottom: .3rem;
+}
+
+.BannerDescription {
+	width: 45rem;
+	line-height: 1.3;
+	padding: 0.5rem 0;
+	font-size: 1.5rem;
+	max-width: 360px;
+}
+
+.BannerFadeBottom {
+	height: 7.4rem;
+	background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, .61), #111);
+}
+
+.Button {
+	background: #393e46 !important;
+	color: white !important;
+}
+
+.Button:hover {
+	background: #eeeeee !important;
+	color: black !important;
+}

@@ -1,0 +1,24 @@
+.Nav {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	z-index: 1;
+	width: 100%;
+	transition: all 0.4s ease-in;
+}
+
+.NavBlack {
+	background-color: #111;
+}
+
+.NavbarLogo {
+	width: 100px;
+	object-fit: contain;
+}
+
+.NavbarAvatar {
+	width: 30px;
+	object-fit: contain;
+}
